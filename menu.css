@@ -1,0 +1,639 @@
+*{
+    box-sizing: border-box;
+  }
+ 
+  body{
+    background-color: #070e16;
+  }
+ 
+  .about{
+    background-color: #070e16;
+      margin: 0px;
+  }
+ 
+  .head1{
+    display: flex;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-bottom: 1px double rgba(255,255,255,0.2);;
+ }
+ 
+ .head1 a{
+    color:rgba(255,255,255,0.2);
+    text-decoration: none;
+    color: #bbbbbb;
+    font-size: large;
+    display: block;
+    padding-left: 68px; 
+    padding-top: 5px;
+ }
+ 
+ .head1 a:hover{
+   cursor: pointer;
+   color: red;
+ }
+ 
+ #l0{
+   margin-left: 5px;
+ }
+ 
+ 
+ #l1{
+  padding-left: 45%;
+  padding-top: 5px;
+  }
+ 
+  .texts{
+      color: white;
+      padding-top: 50px;
+      text-align: center;
+      font-size: 24px;
+  }
+ 
+  .line_design{
+      width: 140px;
+      height: 40px;
+      padding-top: 5px;
+     margin-left: 660px;
+     padding-bottom: 10px;
+     margin-bottom: 15px;
+  }
+ 
+ 
+ .menu_item{
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+     
+ }
+ 
+ #all{
+     color: white;
+     margin-left: 350px;
+     font-size: 19px;
+ }
+ 
+ #all:hover{
+     color:red;
+     cursor: pointer;
+ }
+ 
+ #biryanii{
+     color: white;
+     margin-left: 60px;
+     font-size: 19px;
+ }
+ 
+ #biryanii:hover{
+     color: red;
+     cursor: pointer;
+ }
+ 
+ #chicken{
+     color: white;
+     margin-left: 60px;
+     font-size: 19px;
+ }
+ 
+ #chicken:hover{
+     color: red;
+     cursor: pointer;
+ }
+ 
+ #pizza{
+     color: white;
+     margin-left: 60px;
+     font-size: 19px;
+ }
+ 
+ #pizza:hover{
+     color:red;
+     cursor: pointer;
+ }
+ 
+ #burger{
+     color: white;
+     margin-left: 60px;
+     font-size: 19px;
+ }
+ 
+ #burger:hover{
+     color: red;
+     cursor: pointer;
+ }
+ 
+ #pasta{
+     color: white;
+     margin-left: 60px;
+     font-size: 19px;
+ }
+ 
+ #pasta:hover{
+     color: red;
+     cursor: pointer;
+ }
+ 
+ #indian{
+     color: white;
+     margin-left: 60px;
+     font-size: 19px;
+ }
+ 
+ #indian:hover{
+     color: red;
+     cursor: pointer;
+ }
+ 
+ .all_img_menu{
+     margin-top: 90px;
+ }
+ 
+ 
+ .menu1{
+     height: 200px; 
+     width: 21%;
+     margin-left: 120px;
+ }
+ 
+ 
+ .menu2{
+     height: 200px; 
+     width: 21%;
+     margin-left: 120px;
+ }
+ 
+ 
+ .menu3{
+     height: 200px; 
+     width: 21%;
+     margin-left: 120px;
+ }
+ 
+ .dish_name{
+     display: flex;
+     list-style: none;
+ }
+ 
+ #dish1{
+     color: white;
+     margin-left: 210px;
+     margin-top: 20px;
+     font-weight: bold;
+     font-size: 18px;
+ }
+ 
+ 
+ #dish2{
+     color: white;
+     margin-left: 320px;
+     margin-top: 20px;
+     font-weight: bold;
+     font-size: 18px;
+ }
+ 
+ 
+ #dish3{
+     color: white;
+     margin-left: 340px;
+     margin-top: 20px;
+     font-weight: bold;
+     font-size: 18px;
+ }
+ 
+ .text_below_img{
+     display: flex;
+ }
+ 
+ .btn2{
+     background-color: orange;
+     color: white; 
+     font-weight: bold;
+     height: 48px;
+     width: 10%;
+     margin-top: 30px;
+     margin-left: 190px;
+     border-radius: 8px;
+     border: none;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ 
+ .btn2:hover{
+     background-color: rgb(255, 88, 27);
+     color: white; 
+ }
+ 
+ .btn3{
+     background-color: orange;
+     color: white; 
+     font-weight: bold;
+     height: 48px;
+     width: 12%;
+     margin-top: 30px;
+     margin-left: 280px;
+     border-radius: 8px;
+     border: none;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ 
+ .btn3:hover{
+     background-color: rgb(255, 88, 27);
+     color: white; 
+ }
+ 
+ .btn4{
+     background-color: orange;
+     color: white; 
+     font-weight: bold;
+     height: 48px;
+     width: 10%;
+     margin-top: 30px;
+     margin-left: 280px;
+     border-radius: 8px;
+     border: none;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ 
+ .btn4:hover{
+     background-color: rgb(255, 88, 27);
+     color: white; 
+ }
+ 
+ .all_img_menu0{
+     margin-top: 90px;
+ }
+ 
+ .menu4{
+     height: 200px; 
+     width: 21%;
+     margin-left: 120px;
+ }
+ 
+ .menu5{
+     height: 200px; 
+     width: 21%;
+     margin-left: 120px;
+ }
+ 
+ .menu6{
+     height: 200px; 
+     width: 21%;
+     margin-left: 120px;
+ }
+ 
+ .dish_name1{
+     display: flex;
+     list-style: none;
+ }
+ 
+ #dish4{
+     color: white;
+     margin-left: 220px;
+     margin-top: 20px;
+     font-weight: bold;
+     font-size: 18px;
+ }
+ 
+ 
+ #dish5{
+     color: white;
+     margin-left: 340px;
+     margin-top: 20px;
+     font-weight: bold;
+     font-size: 18px;
+ }
+ 
+ 
+ #dish6{
+     color: white;
+     margin-left: 340px;
+     margin-top: 20px;
+     font-weight: bold;
+     font-size: 18px;
+ }
+ 
+ .text_below_img1{
+     display: flex;
+ }
+ 
+ .btn5{
+     background-color: orange;
+     color: white; 
+     font-weight: bold;
+     height: 48px;
+     width: 10%;
+     margin-top: 30px;
+     margin-left: 190px;
+     border-radius: 8px;
+     border: none;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ 
+ .btn5:hover{
+     background-color: rgb(255, 88, 27);
+     color: white; 
+ }
+ 
+ .btn6{
+     background-color: orange;
+     color: white; 
+     font-weight: bold;
+     height: 48px;
+     width: 12%;
+     margin-top: 30px;
+     margin-left: 280px;
+     border-radius: 8px;
+     border: none;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ 
+ .btn6:hover{
+     background-color: rgb(255, 88, 27);
+     color: white; 
+ }
+ 
+ .btn7{
+     background-color: orange;
+     color: white; 
+     font-weight: bold;
+     height: 48px;
+     width: 10%;
+     margin-top: 30px;
+     margin-left: 280px;
+     border-radius: 8px;
+     border: none;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ 
+ .btn7:hover{
+     background-color: rgb(255, 88, 27);
+     color: white; 
+ }
+ 
+ .middle1{
+     border: 1px solid rgba(255,255,255,0.2);
+     margin-top: 40px;
+     }
+ 
+ 
+ .img_texts{
+  margin-top: 70px;
+  margin-left: 60px;
+  display: flex;
+ }
+ 
+ .one_line{
+  display: inline;
+  color: white;
+  list-style: none;
+ }
+ 
+ #main_text{
+  font-weight: bold;
+  font-size: 37px;
+  color: yellow;
+  margin-left: 280px;
+ }
+ 
+ #num_150{
+  font-size: 45px;
+  color: yellow;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+ }
+ 
+ #main_text1{
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 330px;
+  letter-spacing: 2px;
+ }
+ 
+ #lorem1{
+  margin-top: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-left: 180px;
+ }
+ 
+ 
+ #lorem2{
+  letter-spacing: 1px;
+  text-align: center;
+  margin-left: 180px;
+ }
+ 
+ .btn1{
+  background-color: orange;
+  color: white; 
+  font-weight: bold;
+  height: 48px;
+  width: 21%;
+  margin-top: 50px;
+  margin-left: 380px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+ }
+ 
+ .btn1:hover{
+  background-color: rgb(255, 88, 27);
+  color: white; 
+ }
+ 
+ .footer{
+    background-image: url(footer-bg.jpg);
+    width: 100%;
+    height: 550px;
+    margin-top: 150px;
+   }
+   
+   .dis_flex{
+    display: flex;
+   text-align: center;
+   }
+   
+   
+   .liet{
+    margin-left: 180px;
+    list-style: none;
+   }
+   
+   .dis_inline ul li :hover{
+    color: whitesmoke;
+    border-bottom: 5px double  rgb(199, 157, 78);
+   }
+   
+   .dis_inline ul li a{
+    color:rgba(255,255,255,0.2);
+    text-decoration: none;
+    font-weight: 300px;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+   }
+   
+   #one{
+    font-size: 18px;
+    padding-top: 65px;
+   }
+   
+   #two{
+    font-size: 18px;
+    padding-top: 20px;
+   }
+   
+   #three{
+    font-size: 18px;
+    padding-top: 20px;
+   }
+   
+   #four{
+    font-size: 18px;
+    padding-top: 20px;
+   }
+   
+   #five{
+    font-size: 18px;
+    padding-top: 20px;
+   }
+   
+   
+   
+   .liet1{
+    background-image: url(footer-form-bg.png);
+    margin-left: 120px;
+    width: 570px;
+    height: 450px;
+    padding-top: 30px;
+    margin-top: 30px;
+   }
+   
+   .dis_inline1 ul li a{
+    color:rgba(255,255,255,0.2);;
+    text-decoration: none;
+    font-weight: 300px;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+   }
+   
+   #six{
+    padding-top: 18px;
+    font-size: 18px;
+   }
+   
+   #seven{
+    padding-top: 18px;
+    font-size: 18px;
+   }
+   
+   #eight{
+    padding-top: 18px;
+    font-size: 18px;
+   }
+   
+   #nine{
+    padding-top: 18px;
+    font-size: 18px;
+   }
+   
+   #line_design1{
+    width: 110px;
+    height: 38px;
+    padding-top: 20px;
+   }
+   
+   #ten{
+    color: whitesmoke;
+    font-size: 27px;
+    letter-spacing: 3px;
+    padding-top: 16px;
+    list-style: none;
+   }
+   
+   #eleven{
+    font-size: 17px;
+    color: #bbbbbb;
+    padding-top: 9px;
+    list-style: none;
+   }
+   
+   #twelve{
+    width: 60%;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 23px;
+    padding-left: 5px;
+    background-color: black;
+    color: white;
+   }
+   
+   #buton{
+    color:var(--gold-crayola);
+    height: 35px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+   }
+   
+   #buton:hover{
+    background-color: rgb(199, 157, 78);
+   
+   }
+   
+   .liet2{
+    padding-left: 190px;
+   }
+   
+   .dis_inline2 ul a{
+    color:rgba(255,255,255,0.2);
+    text-decoration: none;
+    font-weight: 300px;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+   }
+   
+   
+   #icon{
+   font-size: 30px;
+   margin-top: 60px;
+   }
+   
+   #icon1{
+    font-size: 30px;
+    margin-top: 30px;
+   }
+   
+   #icon2{
+    font-size: 30px;
+    margin-top: 30px;
+   }
+   
+   #icon3{
+    font-size: 30px;
+    margin-top: 30px;
+   }
+   
+   #icon4{
+    font-size: 30px;
+    margin-top: 30px;
+   }
+   .tutn{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+   }
+    
